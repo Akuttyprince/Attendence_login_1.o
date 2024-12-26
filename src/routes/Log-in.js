@@ -26,6 +26,7 @@ function LoginPage() {
       else if (role === 'Staff') navigate('/staff-dashboard');
       else if (role === 'Student') navigate('/student-dashboard');
     } catch (errorMessage) {
+      console.log(errorMessage)
       setError(errorMessage);
     }
   };
@@ -121,7 +122,7 @@ console.log(role)
             >
               Log In
             </button>
-          {error && <p>{error}</p>}
+           {error && <p>{error}</p>}
           </form>
         </div>
       </div>
