@@ -1,0 +1,14 @@
+backend/
+├── models/             # Database models
+│   └── User.js         # User schema
+├── routes/             # API routes
+│   └── auth.js         # Authentication-related routes
+├── controllers/        # Controller logic
+│   └── authController.js  # Login logic
+├── config/             # Configuration files
+│   └── db.js           # Database connection
+├── middleware/         # Middleware (e.g., authentication)
+│   └── authMiddleware.js  # Role-based middleware
+├── app.js              # Main application entry point
+├── package.json        # Node.js dependencies
+└── .env                # Environment variables
