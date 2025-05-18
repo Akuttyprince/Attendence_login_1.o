@@ -7,6 +7,9 @@ exports.login = async (req, res) => {
   
 
   try {
+
+
+    
     // Check if user exists
     const user = await User.findOne({ username });
     if (!user) return res.status(404).json({ message: 'User not found' });
