@@ -58,6 +58,7 @@ function LoginPage() {
     //eslint-disable-next-line
   },[role]);
 console.log(role)
+
   return (
     <div className="flex h-screen bg-blue-100">
       {/* Left Side: Image */}
